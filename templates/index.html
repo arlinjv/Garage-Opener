@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garage Door</title>
+    <link rel = stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<FORM METHOD="LINK" ACTION= {{ url_for('opener') }} >
+	<INPUT TYPE="submit" name = "left button" VALUE="LEFT">
+	<INPUT TYPE="submit" name = "right button" VALUE="RIGHT">
+	</FORM>
+
+</body>
+</html>
+
+
+
+
+
+

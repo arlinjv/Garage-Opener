@@ -1,0 +1,9 @@
+
+/*See this for options regarding button attributes: */
+/* http://stackoverflow.com/questions/7374001/how-to-edit-the-size-of-the-submit-button-on-a-form   */
+ 
+input[type=submit] {
+    width: 49%;  height: 12em;
+    font-size: 48px	;
+}
+
